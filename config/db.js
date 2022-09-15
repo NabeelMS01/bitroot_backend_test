@@ -5,7 +5,7 @@ const mongoose =require('mongoose')
 
 const connectDb= async()=>{
     try {
-        let  URI = "mongodb://0.0.0.0:27017/contact" 
+        let  URI = "mongodb+srv://nabeel:mampallil@cluster0.ezuwebf.mongodb.net/?retryWrites=true" 
         console.log(URI);
          
         mongoose.connect(URI ,(err)=>{

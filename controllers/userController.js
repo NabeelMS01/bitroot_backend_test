@@ -26,11 +26,7 @@ const getAllContacts = asyncHandler(async (req, res) => {
 
 
         res.status(200).json(response);
-
-
-
-
-
+ 
 
       } else {
         res.status(404).json("no contacts found");
