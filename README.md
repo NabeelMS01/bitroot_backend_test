@@ -1,7 +1,7 @@
 # bitroot_backend_test
   //to get all contact
   
-   method- GET
+   method- GET;
    url -  / 
  
  //to create a contact
@@ -21,10 +21,9 @@
  method- DELETE
  url -  /delete
  
-  keys
+ keys
  
- Query Params -
- 
+ Query Params - 
  id:id of contact
 ===============================================
  //to search a contact
