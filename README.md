@@ -25,7 +25,7 @@
  
  Query Params -
  
- id: id of contact
+ id:id of contact
 ===============================================
  //to search a contact
  method- GET
